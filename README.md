@@ -1,1 +1,2 @@
 # django-travisCI-coveralls-integration
+[![Build Status](https://travis-ci.org/joelethan/django-travisCI-coveralls-integration.svg?branch=master)](https://travis-ci.org/joelethan/django-travisCI-coveralls-integration) [![Coverage Status](https://coveralls.io/repos/github/joelethan/django-travisCI-coveralls-integration/badge.svg?branch=master)](https://coveralls.io/github/joelethan/django-travisCI-coveralls-integration?branch=master)
