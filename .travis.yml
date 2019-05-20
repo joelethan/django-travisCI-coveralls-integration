@@ -5,5 +5,10 @@ services:
   - postgresql
 install:
   - pip install -r requirements.txt
+  - pip install coveralls
 script:
   - python manage.py test
+  - coverage run --source='try/' manage.py test && coverage report
+
+after_success:
+  - coveralls
